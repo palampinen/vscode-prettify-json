@@ -16,7 +16,7 @@ const jsonlint = require('jsonlint');
 const LINE_SEPERATOR = /\n|\r\n/;
 
 // TODO: make this configurable.
-const JSON_SPACE = 4;
+const JSON_SPACE = 2;
 
 export function activate(context: ExtensionContext) {
 
